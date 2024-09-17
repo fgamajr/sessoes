@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Relatório TCU</title>
+    <!-- Include Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="max-w-7xl mx-auto py-10 px-6">
+      <!-- Header -->
+      <header class="mb-10">
+        <h1 class="text-4xl font-bold text-gray-800 mb-2">
+          Relatório da Sessão TCU
+        </h1>
+        <div id="session-info" class="text-gray-600 leading-relaxed"></div>
+      </header>
+
+      <!-- Processes Section -->
+      <section>
+        <h2 class="text-3xl font-semibold text-gray-800 mb-6">Processos</h2>
+
+        <!-- With Determination -->
+        <div class="mb-10">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">
+            Com Determinação para Segecex
+          </h3>
+          <div class="space-y-6" id="segecex-processes"></div>
+        </div>
+
+        <!-- Without Determination -->
+        <div>
+          <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+            Sem Determinação para Segecex
+          </h3>
+          <div class="space-y-6" id="no-segecex-processes"></div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const reportText = `Sessão Plenária de 04/09/2024
+
+Comunicações da Presidência:
+1. Foi encaminhado ao presidente do Congresso Nacional o relatório de atividades do TCU referente ao segundo trimestre de 2024.
+2. Houve a submissão ao plenário da homologação do despacho para prorrogar, por um ano, a cessão do servidor Jardel Lidório Baltar ao Superior Tribunal de Justiça (STJ) a pedido do presidente do STJ.
+
+
+Atualizações Administrativas: Sim
+Detalhes: 1. Encaminhamento de relatório de atividades do TCU ao Congresso.
+2. Prorrogação da cessão de servidor para o STJ por um ano.
+Mudanças de Jurisprudência: Não
+Alterações de Regras: Não
+Comunicações do Relator/Ministro:
+Durante a sessão, houve comunicações relevantes dos ministros que não estavam relacionadas diretamente aos processos em julgamento, mas sim a aspectos de gestão e políticas do tribunal.
+
+
+**************************************************
+
+TC 040.980/2018-9   RECURSO DE REVISÃO  
+Relator: ministro BENJAMIN ZYMLER
+Resumo da Decisão: O recurso de revisão buscava reformar a decisão anterior que considerou irregulares as contas do Instituto Terraguá e de Vítor Pinheiro de Sousa Nilo Dantas devido à omissão no dever de prestar contas referentes a um convênio para o desenvolvimento de comunidades quilombolas. O relator acolheu o entendimento da unidade técnica e rejeitou o recurso de revisão, mantendo a decisão original. Foi destacado que, apesar da apresentação de novos documentos, eles não foram suficientes para comprovar a regular aplicação dos recursos. Portanto, decidiu-se pelo não reconhecimento de prescrição das pretensões ressarcitórias e punitivas.
+Há determinação para Segecex? Não
+**************************************************
+
+021.408/2019-0   PEDIDO DE REEXAME  
+Relator: ministro AUGUSTO NARDES
+Resumo da Decisão: No julgamento do pedido de reexame referente ao processo nº 21.408/2019-0, que abordava denúncias acerca de possíveis irregularidades no processo de revisão da resolução ANTAQ 2389-2012, o relator, ministro Augusto Nardes, propôs considerar conhecido o recurso e, quanto ao mérito, negou provimento ao pedido de reexame. A decisão tomada pelo plenário foi unânime em acompanhar o relator, mesmo diante das sustentações orais feitas pelos interessados. A decisão debateu a legalidade da cobrança do Serviço de Segregação e Entrega (SSE) de contêineres nos portos, com ampla discussão sobre possíveis descompassos concorrenciais e a necessidade de diálogo institucional entre órgãos reguladores como ANTAQ, TCU e CADE. A pertinência jurídica e econômica do SSE foi defendida pelos sustentantes, mas, ao final, o tribunal optou por não alterar seu entendimento inicial sobre a matéria, mantendo a decisão desfavorável às pretensões do pedido de reexame.
+Há determinação para Segecex? Não
+**************************************************
+
+TC 008.848/2024-6   ACOMPANHAMENTO  
+Relator: ministro AUGUSTO NARDES
+Resumo da Decisão: O tribunal autorizou a realização de uma fiscalização com propósito que contempla questões de auditoria, relacionada ao acompanhamento de ações de controle no apoio à reconstrução do estado do Rio Grande do Sul. A decisão destaca a designação do ministro Augusto Nardes como relator da ação de controle, preservando as competências dos ministros Vital do Rêgo e Jonathan de Jesus, que são relatores de processos relacionados às obras de infraestrutura e conformidade das medidas adotadas pelo Governo Federal nas normas de finanças públicas e impactos fiscais.
+Há determinação para Segecex? Não
+**************************************************
+
+TC 014.745/2015-1   RELATÓRIO DE ACOMPANHAMENTO  
+Relator: ministro AUGUSTO NARDES
+Resumo da Decisão: O processo foi mencionado apenas com uma proposta de rejeitar os argumentos apresentados por Cristiano Justina e Viviane S., não aplicar a multa prevista, acolher as justificativas de Ana Patrícia Gonçalves, Carlos Fernando Nascimento, Jorge Luiz Macedo Bastos e Natália Marcaça de Sousa, e arquivar o presente processo após a conformidade com a resolução ANTT-4787. Não há menção a decisões deliberativas adicionais durante a sessão. O processo foi resolvido de maneira sumária sem detalhes adicionais de decisões complexas.
+Há determinação para Segecex? Não
+**************************************************
+
+002.432/2024-2   REPRESENTAÇÃO  
+Relator: ministro AROLDO CEDRAZ
+Resumo da Decisão: O Tribunal decidiu não conhecer da representação do Ministério Público que sugeria o acompanhamento de uma disputa entre a J&F e Paper Excellence pelo controle da empresa Eldorado Celulose. A unidade instrutiva destacou que o pedido se limitava ao acompanhamento de uma disputa empresarial de caráter privado, sem indicação de irregularidades que afetassem recursos públicos federais ou atos administrativos de autoridades federais relacionados ao embate que pudessem atrair a jurisdição do TCU. Além disso, foi ressaltado que a representação não poderia ser usada como substituto de uma solicitação de fiscalização, a qual é restrita a quem tem legitimidade legal para fazê-lo.
+Há determinação para Segecex? Não
+**************************************************
+
+005.431/2018-2   RECURSO DE RECONSIDERAÇÃO  
+Relator: ministro WALTON ALENCAR RODRIGUES
+Resumo da Decisão: O Sr. Vítor Pinheiro e sua associação, Instituto Terraguá, foram considerados responsáveis pela não prestação de contas e pela má aplicação dos recursos absorvidos através de um convênio com a Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário. Os responsáveis apresentaram uma defesa baseada na prescrição do prazo punitivo, falhas no sistema SICONVE e nova documentação que não foi considerada pelo tribunal. O recurso foi negado e a decisão original de 2020, que julgou as contas irregulares e impôs débitos e multas, foi mantida. O tribunal entendeu que não houve prescrição e que os documentos fornecidos ainda não demonstram a regularidade do uso dos recursos, sendo a atuação do Sr. Vítor Pinheiro não condizente na prestação de contas exigida.
+Há determinação para Segecex? Não
+**************************************************
+
+023.520/2018-3   DENÚNCIA  
+Relator: ministro VITAL DO RÊGO
+Resumo da Decisão: A denúncia foi considerada procedente e foi determinada a instauração de processos de tomada de contas especial para apuração dos danos. Houve a citação solidária dos responsáveis para ressarcimento ao erário.
+Há determinação para Segecex? Sim
+Determinação para Segecex: determine-se à Segecex que inicie imediatamente uma investigação aprofundada para delinear responsabilidades e estruturar a tomada de contas especial conforme os procedimentos adequados.
+
+**************************************************
+
+021.345/2016-3   RECURSO DE REVISÃO  
+Relator: ministro BENJAMIN ZYMLER
+Resumo da Decisão: Após uma discussão detalhada, a decisão foi de sobrestar os autos e fixar um prazo para a Fundação Nacional de Saúde iniciar tratativas junto à Prefeitura para prover funcionalidade plena ao sistema de abastecimento de água potável para a população de Macapá. O julgamento das contas irregulares sem comunicação de débito foi mantido em função das circunstâncias específicas do convênio que destinava-se à execução do sistema de abastecimento de água potável do bairro do Açaí, em Macapá.
+Há determinação para Segecex? Não
+**************************************************
+
+043.192/2021-1   PEDIDO DE REEXAME  
+Relator: ministro VITAL DO RÊGO
+Resumo da Decisão: Foi decidido pelo conhecimento do pedido de reexame interposto pela Advocacia Geral da União, no mérito, foi dado provimento ao pedido, tornando subsistente a integralidade do item 9.1 do Acordão Recorrido. Isso implica que a decisão original foi revista positivamente para o requerente, alterando-se a determinação anterior do tribunal.
+Há determinação para Segecex? Não
+**************************************************
+
+000.149/2022-5   TOMADA DE CONTAS ESPECIAL  
+Relator: ministro WALTON ALENCAR RODRIGUES
+Resumo da Decisão: O tribunal, após minuciosa análise, decidiu pela condenação solidária das empresas Queiroz Galvão e IESA Óleo e Gás, bem como de diversos responsáveis individuais, por um sobrepreço identificado de 412 milhões de reais no contrato relacionado às tubovias da RNEST. A decisão levou em consideração a necessidade de estabelecer uma proporcionalidade entre o grau de culpa e o valor do dano, resultando em condenações individuais diferenciadas entre os responsáveis, como parte de uma proposta de integrar o princípio da reparação integral do dano com a atribuição de responsabilidades proporcionais ao grau de envolvimento e benefício de cada parte. Além disso, destacou-se a ausência de qualquer recuperação significativa de valores em decisões prévias e a diferenciação na responsabilização de colaboradores em relação aos não colaboradores.
+Há determinação para Segecex? Não
+**************************************************
+
+010.192/2024-7   REPRESENTAÇÃO  
+Relator: ministro WALTON ALENCAR RODRIGUES
+Resumo da Decisão: O tribunal julgou irregulares as contas da Queiroz Galvão, IESA e indivíduos envolvidos, condenando-os ao pagamento de débitos por sobrepreço em contratos. O ex-presidente da Petrobras, José Sérgio Gabrielli, foi responsabilizado por grave omissão, mas seu valor de débito foi ajustado para 4,7 milhões, aplicando-se o parágrafo único do artigo 944 do Código Civil. Indivíduos como Paulo Roberto Costa e Pedro Barusco, colaboradores no processo, tiveram seus débitos limitados a um sétimo e um oitavo, respectivamente, do total de suas responsabilidades. Esta decisão levou em conta a proporcionalidade de culpa e capacidade econômica dos responsáveis.
+Há determinação para Segecex? Não
+**************************************************
+
+017.647/2024-0   DENÚNCIA  
+Relator: ministro WALTON ALENCAR RODRIGUES
+Resumo da Decisão: O Tribunal de Contas da União (TCU), ao deliberar sobre o processo TC 017.647/2024-0, que tratou de denúncias relacionadas à Universidade Federal de São Paulo, decidiu referendar a medida cautelar previamente determinada. A decisão assegura que quaisquer procedimentos irregulares sejam amplamente verificados e reforça a necessidade de dar continuidade ao acompanhamento das ações relativas à cautelar emitida. A pauta destaque no processo foi sobre a verificação das condições e protocolos relacionados ao manejo administrativo da universidade, garantindo uma atuação transparente e conforme as normas vigentes exigidas pelo TCU.
+Há determinação para Segecex? Não
+**************************************************
+
+039.355/2023-3   DESESTATIZAÇÃO  
+Relator: ministro WALTON ALENCAR RODRIGUES
+Resumo da Decisão: O Tribunal de Contas decidiu pela continuidade do processo de arrendamento do terminal portuário ITG 02 no Complexo Portuário de Itaguaí. Não foi detectada nenhuma inconsistência que impedisse o prosseguimento, desde que certas correções indicadas nas determinações do acordo fossem efetuadas. Parte dessas correções impedia a venda a arrendatários dos portos vizinhos, comumente referido como Porto do Meio, reforçando medidas para promoção da competitividade. Assim, desde que cumpridas as correções determinadas, não existem objeções ao seguimento do processo de desestatização.
+Há determinação para Segecex? Sim
+Determinação para Segecex: Determinar à Secretaria de Controle Externo que realize auditoria sobre a aplicação das correções apontadas no presente acordo, particularmente aquelas relativas à promoção da competitividade, referente ao Complexo Portuário de Itaguaí.
+
+**************************************************
+
+TC 026.840/2016-2   TOMADA DE CONTAS ESPECIAL  
+Relator: ministro BENJAMIN ZYMLER
+Resumo da Decisão: Neste processo, trata-se de uma Tomada de Contas Especial instaurada devido à não comprovação da boa e regular aplicação dos recursos recebidos pelo Instituto Terraguá e seu dirigente, Vítor Pinheiro de Sousa Nilo Dantas, através de um convênio com a Secretaria Especial de Agricultura Familiar e Desenvolvimento Agrário. A defesa alega prescrição, falhas no sistema eletrônico de prestação de contas e argumenta que nova documentação comprobatória não foi devidamente analisada, mas o tribunal manteve a decisão de julgamento pela irregularidade das contas, negando provimento ao recurso de revisão. O tribunal destacou a organização inadequada da documentação e a ausência de importantes elementos probatórios por parte dos recorrentes.
+Há determinação para Segecex? Não
+**************************************************
+
+TC 015.262/2023-5   ACOMPANHAMENTO  
+Relator: ministro BENJAMIN ZYMLER
+Resumo da Decisão: Durante a apreciação do processo de acompanhamento TC 015.262/2023-5, determinou-se que instituições financeiras especificadas disponibilizem ao Tribunal de Contas da União, em arquivo eletrônico, a posição consolidada dos extratos das contas correntes do Fundeb e suas aplicações financeiras vinculadas, atualizadas até a data do encerramento da conta. Esta divulgação deve seguir os moldes do layout estabelecido pela portaria Findeb. Houve deferimento de prorrogação de prazo requerido por um dos bancos, e também comunicação à FEBRABAN sobre o mesmo.
+Há determinação para Segecex? Não
+**************************************************
+
+015.839/2024-9   SOLICITAÇÃO DO CONGRESSO NACIONAL  
+Relator: ministro BENJAMIN ZYMLER
+Resumo da Decisão: O Tribunal de Contas da União (TCU) decidiu, por unanimidade, conhecer da solicitação do Congresso Nacional quanto ao processo TC 015.839/2024-9. A matéria da solicitação está sendo tratada em processos já mencionados e se comprometeram a informar o solicitante sobre os resultados assim que disponíveis. Além disso, uma cópia integral dos autos pertinentes será fornecida à Presidência da Câmara.
+Há determinação para Segecex? Não
+**************************************************
+
+TC 033.637/2020-2   EMBARGOS DE DECLARAÇÃO  
+Relator: ministro BENJAMIN ZYMLER
+Resumo da Decisão: Os embargos de declaração foram conhecidos, mas no mérito foram rejeitados. Não foram acolhidos para modificar a decisão anterior.
+Há determinação para Segecex? Não
+**************************************************
+
+040.628/2021-3   PEDIDO DE REEXAME  
+Relator: ministro BENJAMIN ZYMLER
+Resumo da Decisão: O relator Benjamin Zymler votou no sentido de negar provimento ao pedido de reexame do processo TC 040.628/2021-3. Foi discutida a possibilidade de redução de débito com base na aplicação do parágrafo único do artigo 944 do Código Civil, mas não foi aplicado, mantendo-se a imputação do débito na sua totalidade aos responsáveis, seguindo o entendimento tradicional do TCU. Uma divisão do débito por responsabilidade proporcional não foi aceita pelo plenário neste caso. O pedido do Conselho Regional de Farmácia do Estado do Rio Grande do Sul para revisão foi apenas parcialmente acolhido, com uma nova redação dada à determinação, mas sem implicar em mudanças significativas no entendimento de débito.
+Há determinação para Segecex? Não
+**************************************************
+
+038.928/2023-0   REPRESENTAÇÃO  
+Relator: ministro JORGE OLIVEIRA
+Resumo da Decisão: Após várias alegações de irregularidades e defesas apresentadas pelas partes, decidiu-se manter os montantes repactuados de risco hidrológico transferidos aos consumidores no contexto de usinas elétricas, devido à segurança jurídica e à ausência de dolo ou erro grosseiro na decisão da Agência Reguladora ANEEL. As mudanças propostas pela unidade especializada não foram adotadas, considerando o impacto potencial para os consumidores e a ausência de ilegalidade patente no despacho regulatório questionado. A representação foi considerada parcialmente procedente mas não apresentou ilegalidade suficiente para revisão completa dos atos.
+Há determinação para Segecex? Não
+**************************************************
+
+045.601/2012-7   EMBARGOS DE DECLARAÇÃO  
+Relator: ministro ANTONIO ANASTASIA
+Resumo da Decisão: Os embargos de declaração interpostos por Vítor Pinheiro de Sousa Nilo Dantas buscaram reformar o acórdão que julgou irregulares suas contas, alegando prescrição, falhas no sistema do Governo Federal e a apresentação de nova documentação comprobatória. Após análise, o relator decidiu negar provimento aos embargos, mantendo a decisão anterior, visto que as falhas apontadas não foram suficientemente justificadas e que a documentação apresentada não demonstrou a adequada aplicação dos recursos.
+Há determinação para Segecex? Sim
+Determinação para Segecex: Determinar à Segecex que realize auditoria para verificar o cumprimento das condições de repactuação dos contratos envolvidos.
+
+**************************************************
+
+001.272/2015-2   EMBARGOS DE DECLARAÇÃO  
+Relator: ministro JHONATAN DE JESUS
+Resumo da Decisão: O Tribunal de Contas da União revisou a atuação do quadro de diretores da Petrobras envolvido na prática de concessão de propinas no esquema de superfaturamento de obras dentro do chamado clube de empreiteiras. No caso específico, houve a determinação de débito solidário para todos os envolvidos, totalizando R$ 412 milhões, que corresponderia ao sobrepreço identificado nos contratos. Para o ex-presidente da Petrobras, José Sérgio Gabrielli, foi estipulado um débito diferenciado de R$ 4,7 milhões, considerando sua responsabilidade omissiva e comparando-a com a responsabilidade dolosa de outros envolvidos. Este processo redefiniu a aplicação da solidariedade e da proporcionalidade no débito em caso de delação premiada e cumprimento de termo de colaboração premiada, trazendo inovação na consideração do tratamento diferenciado entre pessoas físicas e jurídicas com base na capacidade econômica e grau de culpa dos envolvidos.
+Há determinação para Segecex? Não
+**************************************************
+
+010.329/2024-2   RELATÓRIO DE ACOMPANHAMENTO  
+Relator: ministro JHONATAN DE JESUS
+Resumo da Decisão: Foi realizado um acompanhamento relativo ao segundo trimestre de 2024 em relação aos resultados fiscais e execução orçamentária e financeira da União, com foco no cumprimento das metas fiscais, aderência aos limites constitucionais e legais, e as regras de limitação de empenho e movimentação financeira, além dos bloqueios orçamentários. As informações desse acompanhamento foram encaminhadas ao Congresso Nacional, especificamente ao presidente da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, e o processo foi encerrado sem maiores adoções.
+Há determinação para Segecex? Não
+**************************************************
+
+TC 012.712/2022-1   MONITORAMENTO  
+Relator: ministro JHONATAN DE JESUS
+Resumo da Decisão: During the monitoring of the fulfillment of determinations and recommendations issued in the Acórdão 3.142/2021 for the monitoring report of the emergency aid, it was considered that certain determinations and recommendations were fully complied with, while others were not. The monitoring aimed to verify the adherence to the determinations and recommendations concerning the emergency aid. It was concluded that some of the items were completed, some were in progress, and others had yet to be fulfilled. The details of compliance are specified in the judgment act.
+Há determinação para Segecex? Não
+**************************************************
+
+014.644/2023-1   RELATÓRIO DE AUDITORIA  
+Relator: ministro JHONATAN DE JESUS
+Resumo da Decisão: Foi identificada que a Apex Brasil e o Ministério Supervisor Atual implementaram diversas sugestões para aprimoramento de seus fluxos de trabalho, bem como os instrumentos de planejamento e supervisão relacionados a esse contrato de gestão relacionado ao ano de 2024 a 2027. Há evidências de benefícios decorrentes do controle, no sentido de induzir um contínuo aprimoramento da governança e da gestão pública. A equipe identificou que a Agência não explicitou como suas ações e programas correlacionavam-se com os objetos de políticas nacionais de desenvolvimento e com as políticas de favorecimento das empresas de pequeno porte e a geração de emprego. Além disso, os relatórios de desempenho não se basearam em informações suficientes para avaliar os resultados nos termos de eficiência, eficácia e efetividade, inviabilizando a adequação da supervisão ministerial sobre esse aspecto. Como resultado, foram expedidas recomendações ao Ministério de Desenvolvimento, Indústria, Comércio Exterior e Serviços e à Apex Brasil.
+Há determinação para Segecex? Não
+**************************************************
+
+030.971/2015-2   TOMADA DE CONTAS ESPECIAL  
+Relator: ministro JHONATAN DE JESUS
+Resumo da Decisão: O recurso de reconsideração foi interposto pelo Sr. Vítor Pinheiro de Sousa Nilo Dantas, que alegou prescrição da pretensão punitiva e ressuscitória, problemas no sistema de prestação de contas (SICONV), e a apresentação tardia de documentos não analisados. Apesar das alegações, o recurso foi negado devido à inexistência de prescrição, como apontado pela unidade técnica. A documentação tardia não foi suficiente para comprovar a utilização adequada dos recursos. A decisão unânime do plenário foi pelo conhecimento do recurso e a negativa de provimento.
+Há determinação para Segecex? Não
+**************************************************
+
+035.857/2015-3   ACOMPANHAMENTO  
+Relator: ministro Jhonatan de Jesus
+Resumo da Decisão: Após intensa discussão e análise técnica, destacou-se a desproporcionalidade entre o débito imputado tradicionalmente a todos os responsáveis solidários e a efetiva responsabilidade e capacidade econômica de cada um. Uma nova abordagem foi proposta, estabelecendo um quinhão de débito proporcional à culpa e capacidade econômica específica dos envolvidos. A Queiroz Galvão e a IESA foram condenadas ao valor integral dos R$ 412 milhões, enquanto os responsáveis José Sérgio Gabrielli, Paulo Roberto Costa, Pedro Barusco Filho e Renato Duque tiveram imputações individualizadas, considerando-se suas participações específicas e os acordos de colaboração premiada existentes, o que reduz seus quinhões no total da dívida. Foi uma decisão inovadora que pretende equilibrar a justiça do caso concreto, dentro dos limites da equidade permitidos pelo artigo 944, parágrafo único, do Código Civil.
+Há determinação para Segecex? Não
+**************************************************
+
+002.039/2010-9   TOMADA DE CONTAS ESPECIAL  
+Relator: ministro AUGUSTO SHERMAN
+Resumo da Decisão: Após extensos debates e análises, o Tribunal de Contas da União decidiu por reconhecer a ocorrência da prescrição no processo. Consequentemente, determinou a revogação da medida cautelar anteriormente prevista, bem como a comunicação da deliberação aos órgãos competentes, como o Ministério dos Transportes, o DENIT, o Estado de São Paulo, a Secretaria de Estado de Transportes de São Paulo e a DERSA. O processo foi então arquivado.
+Há determinação para Segecex? Não
+**************************************************
+
+TC 032.923/2017-1   EMBARGOS DE DECLARAÇÃO  
+Relator: ministro AUGUSTO SHERMAN
+Resumo da Decisão: The TCU, led by Relator Augusto Sherman, decided to reject the "Embargos de Declaração" filed regarding this process (TC 032.923/2017-1). The court maintained the original decision without alterations as the presented declarations were not sufficient to cause a change in the ruling.
+Há determinação para Segecex? Não
+**************************************************
+
+044.292/2020-1   MONITORAMENTO  
+Relator: ministro MARCOS BEMQUERER
+Resumo da Decisão: O processo de monitoramento número 044.292/2020-1, relatado por Marcos Bemquerer, foi analisado e resultou na consideração de várias recomendações do acordo anterior como implementadas, outras como em implementação, e algumas como não implementadas. As recomendações implementadas incluem os sub-itens 9.313 e 9.412 do Acordo 1435/2020. As recomendações que estão em implementação são as do sub-item 9.513. Entretanto, as recomendações dos sub-itens 9.511, 9.512 e 9.514 não foram implementadas. Além disso, o cumprimento da determinação constante do sub-item 9.1 do mesmo acordo foi considerado. Ficou deliberado também o envio de cópia deste acordo aos órgãos e entidades mencionados no item 9.4 e a restituição dos autos aos benefícios para a continuidade do monitoramento.
+Há determinação para Segecex? Sim
+Determinação para Segecex: Restituir os autos aos benefícios para a continuidade do monitoramento.
+`; // Paste your full report text here
+
+      function parseReport(text) {
+        const processes = text
+          .split("**************************************************\n")
+          .slice(1);
+        const sessionInfo = text.split(
+          "**************************************************\n"
+        )[0];
+
+        return { processes, sessionInfo };
+      }
+
+      function displayProcesses(processes) {
+        const segecexProcessesDiv =
+          document.getElementById("segecex-processes");
+        const noSegecexProcessesDiv = document.getElementById(
+          "no-segecex-processes"
+        );
+
+        processes.forEach((processText) => {
+          const processData = processText.trim().split("\n");
+
+          const determinacaoIndex = processData.findIndex((line) =>
+            line.includes("Há determinação para Segecex?")
+          );
+          const processInfo =
+            determinacaoIndex !== -1
+              ? processData.slice(0, determinacaoIndex).join("<br>")
+              : processData.join("<br>");
+
+          const hasDeterminacao =
+            determinacaoIndex !== -1 &&
+            processData[determinacaoIndex].includes("Sim");
+          const determinacaoContent = hasDeterminacao
+            ? processData[determinacaoIndex + 1].replace(
+                "Determinação para Segecex: ",
+                ""
+              )
+            : "";
+
+          const processDiv = document.createElement("div");
+          processDiv.classList.add(
+            "border",
+            "border-gray-300",
+            "rounded-lg",
+            "p-6",
+            "bg-white",
+            "shadow"
+          );
+
+          processDiv.innerHTML = `
+            <div class="text-lg font-semibold text-gray-800 mb-2">${
+              processData[0]
+            }</div>
+            <div class="text-gray-600 leading-relaxed mb-4">${processInfo
+              .split("<br>")
+              .slice(1)
+              .join("<br>")}</div>
+            ${
+              hasDeterminacao
+                ? `<div class="bg-blue-50 border-l-4 border-blue-500 p-4">
+                    <p class="text-blue-700 font-semibold">Há determinação para Segecex: Sim</p>
+                    <p class="text-blue-700 mt-1">${determinacaoContent}</p>
+                  </div>`
+                : `<p class="text-gray-500 font-semibold">Há determinação para Segecex: Não</p>`
+            }
+          `;
+
+          if (hasDeterminacao) {
+            segecexProcessesDiv.appendChild(processDiv);
+          } else {
+            noSegecexProcessesDiv.appendChild(processDiv);
+          }
+        });
+      }
+
+      function displaySessionInfo(info) {
+        const sessionInfoDiv = document.getElementById("session-info");
+        sessionInfoDiv.innerHTML = info.replace(/\n/g, "<br>");
+      }
+
+      const parsedReport = parseReport(reportText);
+      displaySessionInfo(parsedReport.sessionInfo);
+      displayProcesses(parsedReport.processes);
+    </script>
+  </body>
+</html>
